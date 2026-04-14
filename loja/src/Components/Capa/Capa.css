@@ -1,0 +1,49 @@
+.secao_capa {
+    height: 80vh;
+    width: 100%;
+     background-size: cover;
+         background-repeat: no-repeat;
+     background-position: center right;
+         display: flex;
+  justify-content: flex-start;
+    font-family: var(--font-title);
+     padding: 0 5%;
+     overflow: hidden;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-style: "Playfair Display", serif;
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.texto h2 {
+    font-size: 60px;
+
+}
+
+.texto h1 {
+    font-size: 140px;
+    margin: 0;
+    color: var(--title);
+    font-weight: bold;
+    
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: var(--title);
+    background-color: brown;
+    border: 2px solid var(--title);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

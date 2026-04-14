@@ -1,4 +1,5 @@
 import './Topo.css'
+import logo from '../../assets/logoLoja.png';
 
 export default function Topo() {
     return (
@@ -12,7 +13,7 @@ export default function Topo() {
             <div className='topo'>
                 <picture>
                     <a href='#'>
-                        <img src='./logoLoja.png' />
+                        <img src={logo} alt="Logo da loja" />
                     </a>
                 </picture>
 
