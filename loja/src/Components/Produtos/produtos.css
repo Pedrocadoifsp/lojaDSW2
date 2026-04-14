@@ -1,0 +1,56 @@
+.produtos {
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/* TÍTULO */
+.produtos h2 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* TEXTO */
+.produtos .descricao {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* LISTA DE PRODUTOS */
+.lista-produtos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* CARD */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+/* HOVER */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* IMAGEM */
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* TEXTO DO CARD */
+.card p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
